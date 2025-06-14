@@ -2,7 +2,7 @@ import os
 import sys
 from PIL import Image
 
-# Convert file size to fitting units, assuming nothing smaller than 1kb and nothing greater than 999mb 
+#Convert file size to fitting units, assuming nothing smaller than 1kb and nothing greater than 999mb 
 def format_bytes(size):
     for unit in ['KB', 'MB']:
         if size < 1024.0:
