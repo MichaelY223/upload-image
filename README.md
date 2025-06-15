@@ -6,10 +6,6 @@
 
 ## 1. Source Code Location
 
-If you're reading this file, you've likely downloaded the source code from:
-
-- https://github.com/MichaelY223/upload-image/archive/refs/tags/v0.1.0.zip
-
 After extracting the ZIP archive, you'll find the following files in the root directory:
 
 - `upload_image.php`
