@@ -4,17 +4,18 @@
 
 ---
 
-## 1. Download the Code
+## 1. Source Code Location
 
-Download the source code from the following GitHub link:
+If you're reading this file, you've likely downloaded the source code from:
 
 - https://github.com/MichaelY223/upload-image/archive/refs/tags/v0.1.0.zip
 
-This ZIP file contains:
+After extracting the ZIP archive, you'll find the following files in the root directory:
 
 - `upload_image.php`
 - `get_image_info.py`
-- `.gitignore` (not necessary for local testing)
+- `.gitignore` (can be ignored for local testing)
+- `README.md` (this file)
 
 ---
 
@@ -43,7 +44,7 @@ This ZIP file contains:
 2. Inside `htdocs`, create a new folder. You can name it anything (e.g., `upload_project`).  
    _This folder name will be used in the browser URL later._
 
-3. Copy the following files from the downloaded ZIP file from the first step into the folder you just created:
+3. Copy the following files from the downloaded ZIP into the folder you just created:
    - `upload_image.php`
    - `get_image_info.py`
 
@@ -61,17 +62,17 @@ This ZIP file contains:
 
 ### d. Access the PHP Script in a Browser
 
-- Open any web browser and go to: ht<span>tp://</span>localhost/<span style="color: green">[your-folder-name]</span>/upload_image.php
-- Replace <code><span style="color: green">[your-folder-name]</span></code> with the actual name you chose earlier.
+- Open any web browser and go to: `http://localhost/<your-folder-name>/upload_image.php`
+- Replace `<your-folder-name>` with the actual name you chose earlier.
 - For example: `http://localhost/upload_project/upload_image.php`
 
 ---
 
 ## Notes
 
-- `get_image_info.py` is a python script and is being executed from `upload_image`.php.
-  - This means python must be installed on your system
-- Open command prompt and type `python --version` to check if python is installed
-  - If this returns something like `Python 3.13.5`, python is correctly installed
-  - If it returns: `'python' is not recognized as an internal or external command`, python is not installed
-- To install python, visit: https://www.python.org/ and follow the default download instructions for the latest version for your operating system
+- `get_image_info.py` is a Python script and is executed by `upload_image.php`.
+  - This means Python must be installed on your system.
+- To check if Python is installed, open Command Prompt and type: `python --version`
+  - If it returns something like `Python 3.13.5`, Python is correctly installed.
+  - If it returns `'python' is not recognized as an internal or external command`, Python is not installed.
+- To install Python, visit: https://www.python.org/ and follow the default installation instructions for your operating system.
