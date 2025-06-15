@@ -27,7 +27,7 @@ This ZIP file contains:
 
 2. Select the version appropriate for your operating system (Windows, Linux, or macOS).
 
-   ![XAMPP Download](image.png)
+   ![XAMPP Download](docs/image.png)
 
 3. Run the installer and follow the installation wizard.
    - You can leave all settings at their defaults.
@@ -55,7 +55,7 @@ This ZIP file contains:
 2. Double-click to open the **XAMPP Control Panel**.
 3. In the control panel, click **Start** next to **Apache** to start the web server.
 
-   ![XAMPP Control Panel](image-1.png)
+   ![XAMPP Control Panel](docs/image.png)
 
 ---
 
